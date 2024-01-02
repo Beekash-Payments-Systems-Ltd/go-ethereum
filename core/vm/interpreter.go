@@ -17,10 +17,10 @@
 package vm
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common/math"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/crypto"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/log"
 )
 
 // Config are the configuration options for the Interpreter

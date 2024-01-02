@@ -21,10 +21,10 @@ import (
 	"crypto/sha256"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/crypto/kzg4844"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/params"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/rlp"
 	"github.com/holiman/uint256"
 )
 

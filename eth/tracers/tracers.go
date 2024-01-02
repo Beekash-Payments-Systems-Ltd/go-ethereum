@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/core/vm"
 )
 
 // Context contains some contextual infos for a transaction execution that is not

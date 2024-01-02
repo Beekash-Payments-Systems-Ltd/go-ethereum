@@ -5,10 +5,10 @@ package logger
 import (
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common/hexutil"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common/math"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/core/vm"
 	"github.com/holiman/uint256"
 )
 

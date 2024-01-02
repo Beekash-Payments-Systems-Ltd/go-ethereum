@@ -23,10 +23,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/fetcher"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common/mclock"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/core/types"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/eth/fetcher"
 )
 
 var (

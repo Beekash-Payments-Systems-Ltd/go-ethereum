@@ -24,8 +24,8 @@ import (
 	"sync"
 
 	gokzg4844 "github.com/crate-crypto/go-kzg-4844"
-	ckzg4844 "github.com/ethereum/c-kzg-4844/bindings/go"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	ckzg4844 "github.com/Beekash-Payments-Systems-Ltd/c-kzg-4844/bindings/go"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common/hexutil"
 )
 
 // ckzgAvailable signals whether the library was compiled into Geth.

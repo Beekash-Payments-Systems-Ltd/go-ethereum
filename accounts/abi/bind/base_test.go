@@ -24,14 +24,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/accounts/abi"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/accounts/abi/bind"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common/hexutil"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/core/types"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/crypto"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

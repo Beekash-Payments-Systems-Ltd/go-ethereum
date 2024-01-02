@@ -24,24 +24,24 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/beacon"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/fetcher"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/trie/triedb/pathdb"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/consensus"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/consensus/beacon"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/core"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/core/forkid"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/core/rawdb"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/core/txpool"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/core/types"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/eth/downloader"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/eth/fetcher"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/eth/protocols/eth"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/eth/protocols/snap"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/ethdb"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/event"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/log"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/metrics"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/p2p"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/trie/triedb/pathdb"
 )
 
 const (
@@ -250,7 +250,7 @@ func newHandler(config *handlerConfig) (*handler, error) {
 			// entirely whenever the transition is started. But in order to
 			// handle the transition boundary reorg in the consensus-layer,
 			// the legacy blocks are still accepted, but only for the terminal
-			// pow blocks. Spec: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3675.md#halt-the-importing-of-pow-blocks
+			// pow blocks. Spec: https://github.com/Beekash-Payments-Systems-Ltd/EIPs/blob/master/EIPS/eip-3675.md#halt-the-importing-of-pow-blocks
 			for i, block := range blocks {
 				ptd := h.chain.GetTd(block.ParentHash(), block.NumberU64()-1)
 				if ptd == nil {

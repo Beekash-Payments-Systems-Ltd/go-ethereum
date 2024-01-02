@@ -22,9 +22,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/discover/v4wire"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/crypto"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/p2p/discover/v4wire"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/p2p/enode"
 )
 
 const waitTime = 300 * time.Millisecond

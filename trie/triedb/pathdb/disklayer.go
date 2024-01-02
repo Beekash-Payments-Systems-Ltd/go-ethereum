@@ -22,12 +22,12 @@ import (
 	"sync"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/trie/triestate"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/core/rawdb"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/crypto"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/log"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/trie/trienode"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/trie/triestate"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -24,7 +24,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/log"
 	"golang.org/x/exp/slog"
 )
 

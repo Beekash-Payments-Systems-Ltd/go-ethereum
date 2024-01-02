@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/eth/filters"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/eth/filters"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/internal/ethapi"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/node"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/rpc"
 	"github.com/graph-gophers/graphql-go"
 	gqlErrors "github.com/graph-gophers/graphql-go/errors"
 )

@@ -24,8 +24,8 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/p2p/enr"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

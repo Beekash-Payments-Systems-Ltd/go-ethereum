@@ -27,8 +27,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/ethdb"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/rlp"
 	"github.com/stretchr/testify/require"
 )
 

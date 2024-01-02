@@ -43,7 +43,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/ethereum/go-ethereum/crypto"
+	ethcrypto "github.com/Beekash-Payments-Systems-Ltd/go-ethereum/crypto"
 )
 
 var (

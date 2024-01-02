@@ -20,10 +20,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/nat"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common/mclock"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/log"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/p2p/enr"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/p2p/nat"
 )
 
 const (

@@ -23,14 +23,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/blake2b"
-	"github.com/ethereum/go-ethereum/crypto/bls12381"
-	"github.com/ethereum/go-ethereum/crypto/bn256"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common/math"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/crypto"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/crypto/blake2b"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/crypto/bls12381"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/crypto/bn256"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/crypto/kzg4844"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/params"
 	"golang.org/x/crypto/ripemd160"
 )
 

@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/params"
 )
 
 type (

@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/console"
-	"github.com/ethereum/go-ethereum/internal/flags"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/cmd/utils"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/console"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

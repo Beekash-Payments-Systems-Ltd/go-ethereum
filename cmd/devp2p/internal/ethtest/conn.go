@@ -25,12 +25,12 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/crypto"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/eth/protocols/eth"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/eth/protocols/snap"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/p2p"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/p2p/rlpx"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/rlp"
 )
 
 var (

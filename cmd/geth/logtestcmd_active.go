@@ -25,9 +25,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/internal/debug"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/log"
 	"github.com/holiman/uint256"
 	"github.com/urfave/cli/v2"
 )

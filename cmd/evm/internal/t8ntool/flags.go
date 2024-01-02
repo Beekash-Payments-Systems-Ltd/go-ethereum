@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/core/vm"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/tests"
 	"github.com/urfave/cli/v2"
 )
 

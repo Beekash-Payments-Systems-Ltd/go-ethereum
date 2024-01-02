@@ -21,15 +21,15 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/consensus"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/consensus/misc/eip1559"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/consensus/misc/eip4844"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/core/state"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/core/types"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/params"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/rpc"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/trie"
 )
 
 // Proof-of-stake protocol constants.
@@ -52,7 +52,7 @@ var (
 // Beacon is a consensus engine that combines the eth1 consensus and proof-of-stake
 // algorithm. There is a special flag inside to decide whether to use legacy consensus
 // rules or new rules. The transition rule is described in the eth1/2 merge spec.
-// https://github.com/ethereum/EIPs/blob/master/EIPS/eip-3675.md
+// https://github.com/Beekash-Payments-Systems-Ltd/EIPs/blob/master/EIPS/eip-3675.md
 //
 // The beacon here is a half-functional consensus engine with partial functions which
 // is only used for necessary consensus checks. The legacy consensus engine can be any

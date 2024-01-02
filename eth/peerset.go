@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/eth/protocols/eth"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/eth/protocols/snap"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/p2p"
 )
 
 var (

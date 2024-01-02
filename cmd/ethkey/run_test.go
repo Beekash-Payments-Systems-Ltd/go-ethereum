@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/internal/cmdtest"
-	"github.com/ethereum/go-ethereum/internal/reexec"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/internal/cmdtest"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/internal/reexec"
 )
 
 type testEthkey struct {

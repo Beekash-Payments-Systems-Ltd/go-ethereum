@@ -24,12 +24,12 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common/compiler"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/accounts/abi/bind"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/cmd/utils"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common/compiler"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/crypto"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/internal/flags"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/log"
 	"github.com/urfave/cli/v2"
 )
 

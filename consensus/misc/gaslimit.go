@@ -19,7 +19,7 @@ package misc
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/params"
 )
 
 // VerifyGaslimit verifies the header gas limit according increase/decrease

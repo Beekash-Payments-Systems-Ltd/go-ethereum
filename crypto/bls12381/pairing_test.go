@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/Beekash-Payments-Systems-Ltd/go-ethereum/common"
 )
 
 func TestPairingExpected(t *testing.T) {
